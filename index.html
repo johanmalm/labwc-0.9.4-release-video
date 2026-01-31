@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>labwc</title>
+  <link rel="stylesheet" href="reveal.js/dist/reset.css">
+  <link rel="stylesheet" href="reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="reveal.js/dist/theme/black.css">
+  <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css">
+
+  <style>
+    body {
+	--color-bg: #0d1117;
+	--color-hl: #333;
+	--color-fg: #c9d1d9;
+	--color-link: #ffbce3;
+	--color-subtle: #555;
+	--color-yellow: #f0d70f;
+	--color-red: #d02f90;
+	--pal1: #262A85;
+	--pal2: #29488F;
+	--pal3: #285577;
+	--pal4: #297E8F;
+	--pal5: #26857B;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <section data-background="#0d1117">
+        <img src="img/labwc3-with-text.png" width="199" height="61"/>
+      </section>
+
+      <section data-background="#0d1117" data-autoslide="3000">
+	      <h3 style="color: var(--color-fg);">0.9.4</h3>
+	      <p style="color: var(--color-fg);"><small>Five years since the initial release</small></p>
+      </section>
+
+      <section data-background="#0d1117" data-autoslide="3000">
+	      <p style="color: var(--color-fg);">
+          <small>With thanks to the <a href="">wlroots</a> team</small>
+        </p>
+      </section>
+
+      <section data-background="#000000" data-background-video="video/100-intro.mkv"
+        data-autoslide="23000">
+      </section>
+
+      <section data-background="#0d1117" data-autoslide="7000">
+        <pre data-id="code-animation"><code class="hljs" data-trim>
+//  That showed
+//
+//   - labwc-tweaks with kvantum theme WhiteSur-opaqueDark
+//   - a new window-switcher module with thumbnails [#2981]
+//   - the client-menu 'Workspace' submenu [#2995]
+        </code></pre>
+      </section>
+
+      <!-- Status Report -->
+
+      <section data-background="#0d1117" data-autoslide="8000">
+        <h3 align="left">0.8.3...0.9.4</h3>
+        <ul  align="left" style="font-size: 28px;">
+          <li>12 months since last release video</li>
+          <li>Code base steady at 28-30k lines in src/</li>
+          <li>Lots of bug-fixes and refinement over last year at ca two commits per day</li>
+	  <li>In main repos of Alpine, Arch, Debian, Fedora, OpenBSD, OpenSUSE, Slackware, Ubuntu, Void, etc. </li>
+          <li>Good translation coverage with help from LXQ </li>
+          <li>Five years since first release</li>
+          <li>OpenSUSE ship xfce4-session-wayland-experimental with labwc</li>
+        </ul>
+      </section>
+
+      <section data-background="#0d1117" data-autoslide="4000">
+        <pre data-id="code-animation"><code class="hljs" data-trim>
+// - OpenSUSE xfce4-session-wayland-experimental
+// - Theme Greybird-geeko
+        </code></pre>
+      </section>
+      <section data-background="#000000" data-autoslide="4000">
+        <img src="img/200-OpenSUSE.png"/>
+      </section>
+      <section data-background="#000000" data-autoslide="4000">
+        <img src="img/201-OpenSUSE.png"/>
+      </section>
+      <section data-background="#000000" data-autoslide="4000">
+        <img src="img/202-OpenSUSE.png"/>
+      </section>
+
+      <section data-background="#0d1117" data-autoslide="4000">
+        <pre data-id="code-animation"><code class="hljs" data-trim>
+// Bi-directional SnapToEdge (with Super+Arrow) [#3081]
+// UnSnap action bound to Super+Home
+        </code></pre>
+      </section>
+      <section data-background="#000000" data-background-video="video/300-bidirectional-snaptoedge.mkv"
+        data-autoslide=12000">
+      </section>
+
+      <section data-background="#0d1117" data-autoslide="4000">
+        <pre data-id="code-animation"><code class="hljs" data-trim>
+// Cairo-dock has Wayland support from version 3.6.0
+        </code></pre>
+      </section>
+      <section data-background="#000000" data-background-video="video/400-cairo-dock.mkv"
+        data-autoslide="18000">
+      </section>
+
+      <section data-background="#0d1117" data-autoslide="4000">
+        <pre data-id="code-animation"><code class="hljs" data-trim>
+// Noctalia shell using quickshell which is based on
+// QtQuick and layer-shell-qt
+        </code></pre>
+      </section>
+      <section data-background="#000000" data-background-video="video/500-noctalia-shell.mkv"
+        data-autoslide="21000">
+      </section>
+
+      <!-- THE END - WITH A THANK YOU -->
+      <section data-background="#0d1117" data-autoslide="10000">
+        <h3>Thanks to all <a href="">contributors</a></h3>
+	      <p>
+The following music was used for this media project:<br/>
+Credit to Sacha Ende (CC BY 4.0)<br/>
+https://filmmusic.io/en/song/TBC<br/>
+        </p>
+      </section>
+      <section data-background="#0d1117">
+      </section>
+
+    </div>
+  </div>
+
+  <script src="reveal.js/dist/reveal.js"></script>
+  <script src="reveal.js/plugin/notes/notes.js"></script>
+  <script src="reveal.js/plugin/markdown/markdown.js"></script>
+  <script src="reveal.js/plugin/highlight/highlight.js"></script>
+  <script>
+  Reveal.initialize({
+    controls: false,
+    progress: false,
+    transition: 'fade',
+    autoSlideStoppable: false,
+    hash: true,
+    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+  });
+  </script>
+</body>
+</html>
