@@ -38,28 +38,14 @@
       </section>
 
       <section data-background="#0d1117" data-autoslide="3000">
-	      <h3 style="color: var(--color-fg);">0.9.4</h3>
-	      <p style="color: var(--color-fg);"><small>Five years since the initial release</small></p>
+        <h3 style="color: var(--color-fg);">0.9.4</h3>
+        <p style="color: var(--color-fg);"><small>five years since the initial release</small></p>
       </section>
 
       <section data-background="#0d1117" data-autoslide="3000">
-	      <p style="color: var(--color-fg);">
-          <small>With thanks to the <a href="">wlroots</a> team</small>
+        <p style="color: var(--color-fg);">
+          <small>with thanks to the <a href="">wlroots</a> team</small>
         </p>
-      </section>
-
-      <section data-background="#000000" data-background-video="video/100-intro.mkv"
-        data-autoslide="23000">
-      </section>
-
-      <section data-background="#0d1117" data-autoslide="7000">
-        <pre data-id="code-animation"><code class="hljs" data-trim>
-//  That showed
-//
-//   - labwc-tweaks with kvantum theme WhiteSur-opaqueDark
-//   - a new window-switcher module with thumbnails [#2981]
-//   - the client-menu 'Workspace' submenu [#2995]
-        </code></pre>
       </section>
 
       <!-- Status Report -->
@@ -70,56 +56,87 @@
           <li>12 months since last release video</li>
           <li>Code base steady at 28-30k lines in src/</li>
           <li>Lots of bug-fixes and refinement over last year at ca two commits per day</li>
-	  <li>In main repos of Alpine, Arch, Debian, Fedora, OpenBSD, OpenSUSE, Slackware, Ubuntu, Void, etc. </li>
-          <li>Good translation coverage with help from LXQ </li>
-          <li>Five years since first release</li>
-          <li>OpenSUSE ship xfce4-session-wayland-experimental with labwc</li>
+	  <li>Significant increase in packaging includign main repos of Alpine, Arch, Debian, Fedora, OpenBSD, OpenSUSE, Slackware, Ubuntu, Void, etc. </li>
+          <li>Good translation coverage with help from LXQt</li>
         </ul>
       </section>
 
-      <section data-background="#0d1117" data-autoslide="4000">
+      <section data-background="#0d1117" data-autoslide="8000">
         <pre data-id="code-animation"><code class="hljs" data-trim>
-// - OpenSUSE xfce4-session-wayland-experimental
-// - Theme Greybird-geeko
+New features
+
+  - Window-switcher module showing thumbnails [#2981]
+  - Client-menu 'Workspace' submenu [#2995]
+  - Bi-directional SnapToEdge [#3081]
+  - Corner snapping with pointer [#2885]
+
+Also inaugral release of labwc-tweaks
         </code></pre>
-      </section>
-      <section data-background="#000000" data-autoslide="4000">
-        <img src="img/200-OpenSUSE.png"/>
-      </section>
-      <section data-background="#000000" data-autoslide="4000">
-        <img src="img/201-OpenSUSE.png"/>
-      </section>
-      <section data-background="#000000" data-autoslide="4000">
-        <img src="img/202-OpenSUSE.png"/>
       </section>
 
-      <section data-background="#0d1117" data-autoslide="4000">
-        <pre data-id="code-animation"><code class="hljs" data-trim>
-// Bi-directional SnapToEdge (with Super+Arrow) [#3081]
-// UnSnap action bound to Super+Home
-        </code></pre>
+      <section data-background="#000000" data-background-video="video/100-intro.mkv"
+        data-autoslide="23000">
       </section>
       <section data-background="#000000" data-background-video="video/300-bidirectional-snaptoedge.mkv"
         data-autoslide=12000">
       </section>
-
-      <section data-background="#0d1117" data-autoslide="4000">
-        <pre data-id="code-animation"><code class="hljs" data-trim>
-// Cairo-dock has Wayland support from version 3.6.0
-        </code></pre>
-      </section>
-      <section data-background="#000000" data-background-video="video/400-cairo-dock.mkv"
-        data-autoslide="18000">
+      <section data-background="#000000" data-background-video="video/301-corner-snapping.mkv"
+        data-autoslide=11000">
       </section>
 
       <section data-background="#0d1117" data-autoslide="4000">
         <pre data-id="code-animation"><code class="hljs" data-trim>
-// Noctalia shell using quickshell which is based on
-// QtQuick and layer-shell-qt
+Demonstrating compositor with external desktop clients
+
+- Xfce on OpenSUSE
+  - zypper install xfce4-session-wayland-experimental
+- LXQt on Arch Linux
+  - pacman -S lxqt-wayland-session
+- Raspberry Pi OS
+- Cairo-dock 3.6.2
+- Noctalia Shell (https://noctalia.dev/)
+- Dank Material Shell (https://danklinux.com/)
         </code></pre>
       </section>
-      <section data-background="#000000" data-background-video="video/500-noctalia-shell.mkv"
-        data-autoslide="21000">
+
+      <section data-background="#0d1117" data-autoslide="2000">
+        <p style="color: var(--color-fg);">labwc with Xfce on OpenSUSE</p>
+      </section>
+      <section data-background="#000000" data-autoslide="3000">
+        <img src="img/200-OpenSUSE.png"/>
+      </section>
+      <section data-background="#000000" data-autoslide="3000">
+        <img src="img/201-OpenSUSE.png"/>
+      </section>
+      <section data-background="#000000" data-autoslide="3000">
+        <img src="img/202-OpenSUSE.png"/>
+      </section>
+
+      <section data-background="#0d1117" data-autoslide="2000">
+        <p style="color: var(--color-fg);">labwc with LXQt</p>
+      </section>
+      <section data-background="#000000" data-background-video="video/250-lxqt.mkv" data-autoslide="21000">
+      </section>
+
+      <section data-background="#0d1117" data-autoslide="2000">
+        <p style="color: var(--color-fg);">labwc with Raspberry Pi OS</p>
+      </section>
+      <section data-background="#000000" data-background-video="video/260-rpi.mp4" data-autoslide="18000">
+      </section>
+      <section data-background="#0d1117" data-autoslide="2000">
+        <p style="color: var(--color-fg);">labwc with cairo-dock</p>
+      </section>
+      <section data-background="#000000" data-background-video="video/400-cairo-dock.mkv" data-autoslide="16000">
+      </section>
+      <section data-background="#0d1117" data-autoslide="2000">
+        <p style="color: var(--color-fg);">labwc with Noctalia Shell</p>
+      </section>
+      <section data-background="#000000" data-background-video="video/500-noctalia-shell.mkv" data-autoslide="21000">
+      </section>
+      <section data-background="#0d1117" data-autoslide="2000">
+        <p style="color: var(--color-fg);">labwc with Dank Material Shell</p>
+      </section>
+      <section data-background="#000000" data-background-video="video/510-dank-linux.mkv" data-autoslide="12000">
       </section>
 
       <!-- THE END - WITH A THANK YOU -->
